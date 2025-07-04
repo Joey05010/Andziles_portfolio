@@ -193,7 +193,7 @@
 
 .view-prototype-btn {
   display: inline-block;
-  background-color: #4CAF50; /* Your preferred color */
+  background-color: #0ccac4; /* Your preferred color */
   color: #fff;
   padding: 12px 24px;
   font-size: 1.1rem;
@@ -203,7 +203,7 @@
 }
 
 .view-prototype-btn:hover {
-  background-color: #45a049; /* Slightly darker on hover */
+  background-color: #099e9a; /* Slightly darker on hover */
 }
 
 
