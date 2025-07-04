@@ -268,8 +268,3 @@
     height: 40px; /* Smaller profile image for mobile */
   }
 }
-
-  .nav-links li a {
-    font-size: 0.95rem;
-  }
-}
