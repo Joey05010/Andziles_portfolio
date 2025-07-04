@@ -186,6 +186,27 @@
     color: #099e9a;
   }
 
+.prototype-cta {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.view-prototype-btn {
+  display: inline-block;
+  background-color: #4CAF50; /* Your preferred color */
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.view-prototype-btn:hover {
+  background-color: #45a049; /* Slightly darker on hover */
+}
+
+
   @media (max-width: 768px) {
     nav {
         flex-direction: column;
