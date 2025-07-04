@@ -237,34 +237,39 @@
   }
 
   .nav-links {
-    gap: 1rem; /* Reduce gap slightly for tablets */
+    gap: 1rem; /* Slightly reduced gap */
+    flex-direction: row; /* 🔥 Force horizontal */
   }
 
   .nav-links li a {
-    font-size: 0.85rem; /* Slightly smaller nav text */
+    font-size: 0.85rem; /* Smaller nav text */
   }
 
   .profile-pic-container {
     width: 50px;
-    height: 50px; /* Smaller profile pic for tablets */
+    height: 50px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   nav {
     padding: 0.3rem 0.8rem;
   }
 
   .nav-links {
-    gap: 0.7rem; /* Tighter gap for mobile */
+    gap: 0.7rem; /* Tighter gap for small screens */
+    flex-direction: row; /* 🔥 Force horizontal */
+    margin-top: 0; /* Remove extra spacing */
+    width: auto;
   }
 
   .nav-links li a {
-    font-size: 0.8rem; /* Smaller font for mobile */
+    font-size: 0.8rem;
   }
 
   .profile-pic-container {
     width: 40px;
-    height: 40px; /* Smaller profile image for mobile */
+    height: 40px;
   }
 }
+
