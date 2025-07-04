@@ -232,19 +232,19 @@
 
 /* Extra small screens (phones) */
 @media (max-width: 480px) {
-    .intro h2 {
-        font-size: 1.4rem;
-    }
+  .intro h2 {
+    font-size: 1.4rem;
+  }
 
-    .intro p {
-        font-size: 0.95rem;
-    }
+  .intro p {
+    font-size: 0.95rem;
+  }
 
-    .frames img {
-        width: 95%;
-    }
+  .frames img {
+    width: 95%;
+  }
 
-    .nav-links li a {
-        font-size: 0.85rem;
-    }
+  .nav-links li a {
+    font-size: 0.95rem;
+  }
 }
