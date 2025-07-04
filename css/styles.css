@@ -164,24 +164,40 @@ section h2 {
 
 /* Responsive */
 
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 1.8rem;
-  }
-  header p {
-    font-size: 1rem;
-    max-width: 300px;
-  }
+@media (max-width: 1024px) {
   nav {
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 1rem;
   }
+
   .nav-links {
-    gap: 1rem;
+    gap: 1rem; /* Reduce gap slightly for tablets */
   }
-  .case-studies a.case-study h3 {
-    font-size: 1rem;
+
+  .nav-links li a {
+    font-size: 0.85rem; /* Slightly smaller nav text */
   }
-  .case-studies a.case-study p {
-    font-size: 0.85rem;
+
+  .profile-pic-container {
+    width: 50px;
+    height: 50px; /* Smaller profile pic for tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 0.3rem 0.8rem;
+  }
+
+  .nav-links {
+    gap: 0.7rem; /* Tighter gap for mobile */
+  }
+
+  .nav-links li a {
+    font-size: 0.8rem; /* Smaller font for mobile */
+  }
+
+  .profile-pic-container {
+    width: 40px;
+    height: 40px; /* Smaller profile image for mobile */
   }
 }
