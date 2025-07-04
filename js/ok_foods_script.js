@@ -11,3 +11,12 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 images.forEach(img => observer.observe(img));
+// Toggle hamburger menu
+document.addEventListener('DOMContentLoaded', function () {
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburger.addEventListener('click', function () {
+    navLinks.classList.toggle('show');
+  });
+});
